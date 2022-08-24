@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <com.example.highlightedtabbar.custom_bottom_navigation_bar.ListenableBottomNavigationView-->
+    <!--       android:id="@+id/bottom_navigation_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:labelVisibilityMode="unlabeled"-->
+    <!--        app:menu="@menu/bottom_navigation"-->
+    <!--        app:itemIconTint="@drawable/bottom_navigation_view_item_tint"-->
+    <!--        app:itemTextColor="@drawable/bottom_navigation_view_item_tint"-->
+    <!--        android:background="@color/black"/>-->
+
+    <!--    <com.example.highlightedtabbar.indicator.BottomNavigationViewIndicator-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        app:clipableBackground="@drawable/rainbow"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/bottom_navigation_view"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/bottom_navigation_view"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation_view"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/bottom_navigation_view"-->
+    <!--        app:targetBottomNavigation="@+id/bottom_navigation_view"/>-->
+
+    <com.shadowindicatorbottomnavigationview.ShadowIndicatorBottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/black_rounded"
+        android:clipToOutline="true"
+        android:elevation="8dp"
+        android:minHeight="70dp"
+        app:itemIconTint="@drawable/bottom_navigation_view_item_tint"
+        app:itemTextColor="@drawable/bottom_navigation_view_item_tint"
+        app:labelVisibilityMode="unlabeled"
+        app:elevation="20dp"
+        app:indicatorHeaderHeight="8dp"
+        app:indicatorHeaderColor="@color/purple_200"
+        app:indicatorShadowColor="@color/purple_200"
+        app:indicatorShadowVisible="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:icon="@drawable/phone"
+        android:title="@string/phone"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item3"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item4"
+        android:enabled="true"
+        android:icon="@drawable/star"
+        android:title="@string/star"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item5"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="@string/user"
+        app:showAsAction="ifRoom" />
+
+<!--    <item-->
+<!--        android:id="@+id/item6"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/home"-->
+<!--        android:title="@string/home"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/item7"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/phone"-->
+<!--        android:title="@string/phone"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/item8"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/settings"-->
+<!--        android:title="@string/settings"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/item9"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/star"-->
+<!--        android:title="@string/star"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/item10"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/user"-->
+<!--        android:title="@string/user"-->
+<!--        app:showAsAction="ifRoom" />-->
+</menu>
