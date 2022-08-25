@@ -1,9 +1,5 @@
 # ShadowIndicatorBottomNavigationView-library
-Shadow Indicator Bottom Navigation View Android
-
-# SmoothBottomBar
-
-A lightweight Android material bottom navigation bar library
+A lightweight Android material bottom navigation bar with shadow indicator library
 
 [![](https://jitpack.io/v/TrooNikhilFlutter/ShadowIndicatorBottomNav-library.svg)](https://jitpack.io/#TrooNikhilFlutter/ShadowIndicatorBottomNav-library)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
