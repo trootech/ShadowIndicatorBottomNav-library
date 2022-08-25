@@ -89,6 +89,7 @@ A lightweight Android material bottom navigation bar with shadow indicator libra
 <p align="center"><a><video width="320" height="240" controls>
   <video src="Videos/video_nomal.mov" type="video/mp4">
 </video></a></p>
+![Screen Recording 2022-08-25 at 12 39 43 PM](https://user-images.githubusercontent.com/86345401/186604807-fcb1eaa5-3de8-40ec-b4e6-d428fcf4e599.gif)
 
 [comment]: <> (## Customization)
 
