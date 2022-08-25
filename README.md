@@ -87,7 +87,7 @@ A lightweight Android material bottom navigation bar with shadow indicator libra
 ### Result Demo:
 
 <p align="center"><a><video width="320" height="240" controls>
-  <source src="Videos/video_nomal.mov" type="video/mp4">
+  <video src="Videos/video_nomal.mov" type="video/mp4">
 </video></a></p>
 
 [comment]: <> (## Customization)
