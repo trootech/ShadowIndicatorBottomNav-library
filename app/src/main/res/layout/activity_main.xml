@@ -28,7 +28,6 @@
         app:itemTextColor="@drawable/bottom_navigation_view_item_tint"
         app:labelVisibilityMode="unlabeled"
         app:elevation="20dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
