@@ -86,10 +86,7 @@ A lightweight Android material bottom navigation bar with shadow indicator libra
 
 ### Result Demo:
 
-<p align="center"><a>
-  <video src="https://user-images.githubusercontent.com/86345401/186605024-1f180dd0-3d59-4afa-b3c4-d94587b1d5e4.mov" type="video/mp4"></a></p>
-
-
+<img src="https://user-images.githubusercontent.com/86345401/186606844-d23dd1db-2901-4997-b29b-917421a59a67.gif" />
 
 
 
