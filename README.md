@@ -1,7 +1,7 @@
 # ShadowIndicatorBottomNavigationView-library
 A lightweight Android material bottom navigation bar with shadow indicator library
 
-[![](https://jitpack.io/v/TrooNikhilFlutter/ShadowIndicatorBottomNav-library.svg)](https://jitpack.io/#TrooNikhilFlutter/ShadowIndicatorBottomNav-library)
+[![](https://jitpack.io/v/trootech/ShadowIndicatorBottomNav-library.svg)](https://jitpack.io/#trootech/ShadowIndicatorBottomNav-library)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 ## Usage
@@ -130,6 +130,6 @@ allprojects {
 }
 //app label build.gradle
 dependencies {
-    implementation 'com.github.TrooNikhilFlutter:ShadowIndicatorBottomNav-library:1.0.0'
+    implementation 'com.github.trootech:ShadowIndicatorBottomNav-library:1.0.0'
 }
 ```
